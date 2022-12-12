@@ -72,10 +72,10 @@ if(isset($_POST['location'])){
 </head>
     <body>
         <div class="result">
-            Welcome <br>
+            Welcome! <br>
+            Thank You for filling the form <br>
             <h3 class="result-name">
             <?php echo $_SESSION['post']['name']; ?> 
-            </h3><br>
-            Thanks for submit info
+            </h3>
         </div>
     </body>
