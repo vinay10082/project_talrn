@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_POST['location'])){
 
-    if(empty($_POST['location']) || empty($_POST['age']) || empty($_POST['gender']) ){
+    if(empty($_POST['location']) || empty($_POST['age']) || empty($_POST['university']) ){
       $_SESSION['error_page_2'] = "Mandatory field(s) are missing, Please fill it again";
       header("location: page_2.php"); //redirect to second page
     }
@@ -74,7 +74,7 @@ if(isset($_POST['location'])){
         <div class="result">
             Welcome <br>
             <h3 class="result-name">
-                <?php echo $_SESSION['post']['name']; ?> 
+            <?php echo $_SESSION['post']['name']; ?> 
             </h3><br>
             Thanks for submit info
         </div>

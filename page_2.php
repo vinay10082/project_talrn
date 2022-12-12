@@ -63,9 +63,8 @@ if (isset($_POST['name'])) {
               <label for="age">Age <span>*</span></label>
               <input type="number" class="form-control" name="age" placeholder="in years">
               <div class="form-group">
-                <label for="gender">Gender <span>*</span></label><br>
-                <input type="radio" name="gender" value="male">Male
-                <input type="radio" name="gender" value="female">Female
+                <label for="university">University <span>*</span></label>
+                <input type="text" class="form-control" name="university" placeholder="NIT Hamirpur, h.p.">
               </div>
               <input type="reset" class="btn btn-secondary mt-2" value="Previous" />
               <input type="submit" class="btn btn-primary mt-2" value="Submit" />
